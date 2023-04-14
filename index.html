@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+    <script src="https://p.trellocdn.com/power-up.min.js"></script>
+    <script>
+     window.TrelloPowerUp.initialize({
+        'card-buttons': function (t, option) {
+            return [
+                {
+                    icon: "https://tuinland.on.spiceworks.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCT0VXcHdZPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--355ef29d494b6bf56075f7825f4110a9199bb652/download-removebg-preview.png",
+                    text: "Hello, Tuinland!",
+                    callback: function (t) {
+                        return t.card().then(card => alert('Hello, Tuinland!'))
+                    }
+                }
+            ] 
+        }
+     })
+    </script>
+</body>
+</html>
