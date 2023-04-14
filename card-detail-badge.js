@@ -33,8 +33,7 @@ window.TrelloPowerUp.initialize({
               title: "Popup Detail Badge",
               text: "Popup",
               callback: function (t, opts) {
-                // function to run on click
-                // do something
+                return t.card().then(card => alert('BOO BITCH'))
               },
             },
             {
