@@ -16,7 +16,7 @@ window.TrelloPowerUp.initialize({
                 // this as well if we needed to do something async first
                 return {
                   text: "Dynamic " + (Math.random() * 100).toFixed(0).toString(),
-                  icon: "https://tuinland.on.spiceworks.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCT0VXcHdZPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--355ef29d494b6bf56075f7825f4110a9199bb652/download-removebg-preview.png",
+                  icon: "https://cdn.hyperdev.com/us-east-1%3A3d31b21c-01a0-4da2-8827-4bc6e88b7618%2Ficon-gray.svg",
                   color: "green",
                   refresh: 10, // in seconds
                 };
